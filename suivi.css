@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+
+/* Le contenant principal (Header) */
+.head {
+    display: flex;
+    justify-content: space-between; /* Pousse le logo à gauche et les liens à droite */
+    align-items: center;           /* Centre tout le monde verticalement */
+    padding: 25px 5%;              /* Marge interne (haut/bas et gauche/droite) */
+    background-color: #e4e2e2;    /* Ton fond gris (gris clair ici) */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Petite ombre pour décoller du contenu */
+}
+
+/* Groupe Logo + H2 */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacement entre le logo et le H2 */
+}
+
+.logo-img {
+    height: 60px; /* Ajuste la taille de ton logo ici */
+    width: auto;
+}
+
+.title {
+    margin: 0; /* Supprime les marges par défaut du h2 */
+    font-size: 1.4rem;
+    color: #333;
+    font-family: sans-serif;
+}
+
+/* Groupe des liens de navigation */
+.links {
+    display: flex;
+    gap: 30px; /* L'espacement entre tes 3 liens */
+}
+
+.links a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+    font-family: sans-serif;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #007bff; /* Couleur au survol */
+}
+
+
+
+.form-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #ddd;
+}
+
+.num {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    color: #888;
+    padding: 10px;
+}
+
+.num.action {
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+    margin-bottom: -2px;
+}
+
+
+/* Un petit peu de style interne pour remplacer <center> */
+.container {
+width: 80%;
+margin: 0 auto; /* Centre le bloc sur la page */
+text-align: center; /* Centre le texte à l'intérieur */
+font-family: Arial, sans-serif;
+}
+.progress-bar {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 30px;
+}
+.input-mail {
+padding: 12px;
+width: 300px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+.btn-valider {
+padding: 12px 25px;
+background-color: #2ecc71;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+.div{
+    margin-top: 40px; 
+    border: 1px dashed #3498db; 
+    padding: 20px;
+}
+.first{
+    color: #27ae60;
+}
+.last{
+    margin-top: 20px; 
+    color: #7f8c8d;
+}
